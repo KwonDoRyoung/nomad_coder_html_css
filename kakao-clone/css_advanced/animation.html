@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <style>
+      @keyframes superSexyCoinFlip {
+        from {
+          transform: rotateY(0deg)
+        }
+        to {
+          transform: rotateY(360deg)
+        }
+      }
+      img {
+            border: 10px solid black;
+            border-radius: 50%;
+            animation: superSexyCoinFlip 5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+<img src="../images/cat.jpeg"/>
+</body>
+</html>

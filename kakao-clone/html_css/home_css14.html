@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My CSS Homepage</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 50px;
+        }
+        span {
+            background-color: yellowgreen;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        p span {
+            color: white;
+            text-decoration: none;
+        }
+        div > span {
+            text-decoration: underline;
+        }
+        p + span {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quod sequi ipsam odio dolorem. <span>inside</span>
+    </p>
+    <address>hi</address>
+    <span>hello</span>
+</div>
+</body>
+</html>

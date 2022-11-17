@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My CSS Homepage</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 50px;
+        }
+
+        span {
+            background-color: yellowgreen;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        button:active {
+            background-color: tomato;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+
+        input[placeholder="username"]:focus {
+            background-color: yellowgreen;
+        }
+
+        a:visited {
+            color: red;
+        }
+        form {
+            border: 1px solid salmon;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        form:focus-within {
+            background-color: blueviolet;
+        }
+        form:hover input{
+            background-color: seagreen;
+        }
+        input::placeholder {
+            color: green;
+        }
+        p::selection {
+            color: white;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>hello</p>
+    <form>
+        <button>Hello</button>
+        <input type="text" placeholder="name"/>
+        <input type="text" placeholder="username"/>
+        <a href="https://apple.com">go to apple</a>
+    </form>
+</div>
+</body>
+</html>

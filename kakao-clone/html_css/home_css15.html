@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My CSS Homepage</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 50px;
+        }
+        span {
+            background-color: yellowgreen;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        input{
+            border: 1px solid wheat;
+        }
+        input:optional {
+            border: 1px solid wheat;
+        }
+        input:required {
+            border: 1px solid tomato;
+        }
+        input[type="password"] {
+            background-color: thistle;
+        }
+        input[placeholder="username"] {
+            background-color: yellowgreen;
+        }
+        input[placeholder~="kkk"] {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form>
+        <input type="text" placeholder="kkk ttt" />
+        <input type="text" placeholder="kkk" />
+        <input type="text" placeholder="username" />
+        <input type="password" required placeholder="password"/>
+    </form>
+</div>
+</body>
+</html>

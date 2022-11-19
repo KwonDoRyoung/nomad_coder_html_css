@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import "variables.css";
 @import "reset.css";
 @import "status-bar.css";
 
@@ -24,4 +25,27 @@ body {
     width: 40%;
     opacity: 0.7;
     font-weight: 300;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+    color: rgba(0,0,0,0.4);
+}
+
+#login-form input:focus {
+    border-color: var(--yellow);
 }

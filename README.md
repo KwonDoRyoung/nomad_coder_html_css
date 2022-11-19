@@ -35,3 +35,4 @@ to study html &amp; css in the Nomad Coder
 - matthewlein.com
 - https://animista.net/
 - BEM: Block Element Modifier
+- Heroicon / FontAwesome

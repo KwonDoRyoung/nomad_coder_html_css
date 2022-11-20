@@ -10,7 +10,7 @@
     font-weight: 600;
 }
 
-.dot {
+.icon_alarm_dot {
     background-color: tomato;
     width: 6px;
     height: 6px;
@@ -18,4 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
 }
+

@@ -124,7 +124,7 @@
 }
 
 .reply .reply__column:first-child {
-    padding-left: 1%;
+    align-items: center;
     width: 5%;
 }
 

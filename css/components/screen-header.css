@@ -16,3 +16,16 @@
     color: rgba(0,0,0,0.7);
     position: relative;
 }
+
+@keyframes rotateGear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotateGear 1.5s linear infinite;
+}
